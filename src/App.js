@@ -6,34 +6,40 @@ import Navbar from "./components/Navbar";
 import ProductList from "./components/ProductList";
 import Checkout from "./components/Checkout";
 import Cart from "./components/Cart";
+import img1 from "./images/img1.jpg";
+import img2 from "./images/img2.jpg";
+import img3 from "./images/img3.jpg";
+import img4 from "./images/img4.jpg";
+import img5 from "./images/img5.webp";
+import img6 from "./images/img6.jpg";
 
 const product = [
   {
     id: "1",
     name: "Leather Tote Bag",
     price: 1000,
-    images: "./images/img1.jpg",
+    images: img1,
   },
-  { id: "2", name: "Luxury Bag", price: 2000, images: "./images/img2.jpg" },
+  { id: "2", name: "Luxury Bag", price: 2000, images: img2 },
   {
     id: "3",
     name: "women leather handbag",
     price: 2999,
-    images: "./images/img3.jpg",
+    images: img3,
   },
   {
     id: "4",
     name: "Wine Red HandBag",
     price: 999,
-    images: "./images/img4.jpg",
+    images: img4,
   },
   {
     id: "5",
     name: "Croco Texture Bag",
     price: 3000,
-    images: "./images/img5.webp",
+    images: img5,
   },
-  { id: "6", name: "Gucci HandBag", price: 5000, images: "./images/img6.jpg" },
+  { id: "6", name: "Gucci HandBag", price: 5000, images: img6 },
 ];
 function App() {
   const [cartItems, setcartItems] = useState([]);
