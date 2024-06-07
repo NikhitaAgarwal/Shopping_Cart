@@ -1,0 +1,10 @@
+/* OrderSummary.css */
+
+
+
+.list-group {
+    padding-left: 0;
+    list-style: none;
+    /* Remove default list style */
+}
+
